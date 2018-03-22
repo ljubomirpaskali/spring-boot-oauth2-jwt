@@ -1,5 +1,7 @@
 # spring-boot-oauth2-jwt
 
+[![Build Status](https://travis-ci.org/ljubomirpaskali/spring-boot-oauth2-jwt.svg?branch=master)](https://travis-ci.org/ljubomirpaskali/spring-boot-oauth2-jwt)
+
 **Table of Contents**
 
 - [Intro](#intro)
