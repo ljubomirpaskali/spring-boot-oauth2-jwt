@@ -1,0 +1,2 @@
+INSERT INTO user VALUES (1, 'Ljubomir Paskali', '$2a$10$TkXwAivhfOWu/xJ8IAYFlOomeMC/WCWD17Fm06ig7k2hE9Z.BzmsG', 'USER_ROLE', 'user');
+INSERT INTO user VALUES (2, 'John Doe', '$2a$10$TkXwAivhfOWu/xJ8IAYFlOomeMC/WCWD17Fm06ig7k2hE9Z.BzmsG', 'USER_ROLE', 'john.doe');
