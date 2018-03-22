@@ -3,7 +3,6 @@
 .DS_Store
 build
 out
-gradle
 *~
 *.class
 *.iws
