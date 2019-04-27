@@ -1,19 +1,22 @@
 package sample.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.stereotype.Service;
+
 import sample.model.User;
 import sample.repository.UserRepository;
 import sample.service.UserService;
 
-import java.util.List;
-import java.util.Optional;
-
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
+
+    public UserServiceImpl(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     @Override
     public List<User> findAll() {

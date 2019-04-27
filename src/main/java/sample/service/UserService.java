@@ -1,9 +1,9 @@
 package sample.service;
 
-import sample.model.User;
-
 import java.util.List;
 import java.util.Optional;
+
+import sample.model.User;
 
 public interface UserService {
 
